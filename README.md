@@ -9,10 +9,10 @@ It works just fine with the "hello-world" `WITH CONTAINER` setup, but not when t
 So the two things that work:
 ```shell
 $ npm test
-$ earthly +this-works
+$ earthly -P +this-works
 ```
 
 But this does not work:
 ```shell
-$ earthly +this-does-not
+$ earthly -P +this-does-not
 ```
