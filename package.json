@@ -1,0 +1,16 @@
+{
+  "name": "earthly-dind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async-redis": "^2.0.0",
+    "jest": "^27.2.4",
+    "testcontainers": "^7.21.0"
+  }
+}
